@@ -7,7 +7,7 @@ rate=${RATE:-6000}
 window=${WINDOW:-5}
 interval=${INTERVAL:-60s}
 dir="${DIR:-"/fluent-bit/etc"}"
-filename="${FILENAME:-"fluent-bit-filters.conf}"}"
+filename="${FILENAME:-"fluent-bit-filters.conf"}"
 match_prefix="${MATCH_PREFIX:-"kube-container-by-ns"}"
 
 

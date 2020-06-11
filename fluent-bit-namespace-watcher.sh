@@ -1,6 +1,6 @@
 #!/bin/sh
 
-interval="${SLEEP_INTERVAL:-"60"}"
+sleep_interval="${SLEEP_INTERVAL:-"60"}"
 ds_name="${DAEMONSET_NAME:-"fluent-bit"}"
 
 # Get a hash of the current namespaces
